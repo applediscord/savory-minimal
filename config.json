@@ -5,37 +5,18 @@
     "key": "f15daee9-904b-417e-b867-e51ef9a38697",
     "oldkey": "1663194c-20d2-4255-b85b-82fa68236d4e",
     "versions": {
-        "latest": "stable",
-        "upcoming": {
-            "num": "v2.6-MSR",
-            "full": "v2.6 Major Stable Release - SavoryTurkey",
-            "codename": "SavoryTurkey",
-            "date": "11-25-21"
-        },
-        "stable": {
-            "num": "v2.5.2-SSP",
-            "full": "v2.5.2 Semi Stable Patch - Cogs patch 2",
-            "codename": "Cogs patch 2",
-            "date": "8-19-21"
-        },
-        "dev": {
-            "date": "11-16-21"
-        }
+        "null": null
     },
     "cogs": [
         "cogs.applications",
-        "cogs.btesting",
-        "cogs.hystats",
         "cogs.listeners",
         "cogs.misc",
-        "cogs.owner",
-        "cogs.polls",
-        "cogs.trusted"
+        "cogs.owner"
     ],
     "pfx": "=",
     "atype": "n",
-    "status": "online",
-    "activity": "join the event!",
+    "status": "dnd",
+    "activity": null,
     "surl": null,
     "testMode": false,
     "verifyV2": "922567002952966205",
@@ -49,54 +30,5 @@
         "staff": "789593786287915010",
         "tempID": null,
         "tips": false
-    },
-    "bt": {
-        "type": 1,
-        "name": "bt",
-        "description": "z",
-        "default_permission": "false",
-        "options": [
-            {
-                "type": 1,
-                "name": "info",
-                "description": "Information about bot-testing"
-            },
-            {
-                "type": 1,
-                "name": "interaction",
-                "description": "Create a test interaction",
-                "options": [
-                    {
-                        "type": 3,
-                        "required": "true",
-                        "name": "type",
-                        "description": "interaction type to create",
-                        "choices": [
-                            {
-                                "name": "Button",
-                                "value": "b"
-                            },
-                            {
-                                "name": "Dropdown menu",
-                                "value": "m"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": 1,
-                "name": "loadsuggestion",
-                "description": "enable/disable bt.suggestions cog",
-                "options": [
-                    {
-                        "type": 5,
-                        "required": "true",
-                        "name": "type",
-                        "description": "enabled/disabled"
-                    }
-                ]
-            }
-        ]
     }
 }
